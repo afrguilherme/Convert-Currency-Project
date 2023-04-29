@@ -19,11 +19,13 @@ body {
 .container {
   background-color: #f4f4f4;
   width: 375px;
+  border-radius: 20px;
 }
 
 header {
   height: 66px;
   background-color: #1b83e2;
+  border-radius: 20px 20px 0 0;
 }
 
 h1 {
