@@ -2,89 +2,82 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: unset;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: 18px;
 }
 
 body {
-  background-color: #e5e5e5;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 50px;
 }
 
 .container {
-  background-color: #f4f4f4;
   width: 375px;
-  border-radius: 20px;
 }
 
 header {
-  height: 66px;
-  background-color: #1b83e2;
+  background: #1b83e2;
   border-radius: 20px 20px 0 0;
+}
+
+main {
+  background: #e5e5e5;
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
 }
 
 h1 {
   font-size: 24px;
   color: #f4f4f4;
-  text-align: center;
-  padding-top: 25px;
-}
-
-main {
   padding: 24px;
-}
-
-label {
-  font-size: 14px;
-  color: #777777;
+  width: 271px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 select {
   background: #ffffff;
   border: 1px solid #bbbbbb;
   border-radius: 4px;
+  width: 327px;
   height: 48px;
-  display: block;
-  width: 100%;
-  cursor: pointer;
+  margin-bottom: 23px;
+  font-size: 16px;
+  color: #555555;
   appearance: none;
   outline: none;
-  padding: 16px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-  margin-top: 6px;
-  margin-bottom: 24px;
+  padding-left: 16px;
+  cursor: pointer;
 }
 
 input {
   background: #ffffff;
   border: 1px solid #bbbbbb;
-  border-radius: 4px;
-  height: 48px;
-  display: block;
-  width: 100%;
-  outline: none;
-  padding-left: 16px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-  font-size: 18px;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  font-size: 16px;
+  color: #555555;
+  padding-left: 16px;
+  outline: none;
+  margin-bottom: 24px;
 }
 
 button {
   background: #1b83e2;
   border-radius: 25px;
-  border: none;
+  width: 327px;
   height: 48px;
-  cursor: pointer;
-  color: #f4f4f4;
-  font-weight: 700;
   font-size: 16px;
-  width: 100%;
-  margin-top: 24px;
+  color: #f4f4f4;
   margin-bottom: 36px;
+  cursor: pointer;
+  outline: none;
 }
 
 button:hover {
@@ -92,32 +85,24 @@ button:hover {
 }
 
 button:active {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 section {
   border: 1px solid #1b83e2;
   border-radius: 4px;
-}
-
-.currency-container {
   text-align: center;
-  padding: 10px;
-}
-
-.currency-name {
   font-size: 14px;
   color: #777777;
+  padding: 5px;
 }
 
-.currency-value {
+#arrow {
+  margin: 10px 0;
+}
+
+.values {
   font-weight: 700;
   font-size: 20px;
   color: #1b83e2;
-}
-
-.arrow {
-  display: block;
-  margin-top: 15px;
-  margin: 0 auto;
 }
